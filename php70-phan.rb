@@ -6,7 +6,7 @@ class Php70Phan < AbstractPhp70Extension
   homepage "https://github.com/rlerdorf/phan"
   head "https://github.com/rlerdorf/phan.git"
 
-  depends_on "arnested/phan/php70-ast" => "HEAD"
+  depends_on "arnested/phan/php70-ast"
 
   def install
     libexec.install Dir["*"]
